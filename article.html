@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/7a4b62b0a4.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+
+        article {
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        article h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        article p {
+            font-size: 15px;
+            color: #575757;
+            line-height: 1.6;
+        }
+
+        article div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        article div img {
+            width: 350px;
+            height: 260px;
+            border: 2px solid rgb(63, 62, 62);
+            border-radius: 13px;
+            box-shadow: 4px 7px 7px 0px rgb(122, 121, 121);
+            cursor: pointer;
+            margin: 10px;
+            transition: 400ms;
+        }
+
+        article div img hover {
+            filter: grayscale(1);
+            transform: scale(1.03);
+
+        }
+
+        aside {
+            width: 50%;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+        }
+
+        aside h3 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        aside p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Image styling */
+        img {
+            height: 500;
+            margin: 30px 0;
+        }
+
+        nav {
+            padding: 0;
+            width: 100%;
+            height: 7rem;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #363535;
+            color: #fff;
+        }
+        .logoimg {
+            margin-right: 30rem;
+        }
+
+        .logo_container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .all-links {
+            display: flex;
+            list-style: none;
+            margin-right: auto;
+            margin-top: 60px;
+        }
+
+        .all-links li {
+            margin-right: 30px;
+        }
+
+        .all-links a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .asside {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .asside img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                flex-direction: column;
+            }
+
+            article, aside {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="navigation container">
+            <div class="logo_container">
+                <div class="logoimg">
+                    <img src="images/logo.png" alt="logo" />
+                </div>
+                <ul class="all-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="article.html">Article</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+            </div>
+
+            <div class="bar_icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <section>
+
+        <article>
+            <h1> Litti Chokha Delicious recipe</h1>
+            <br>
+            <p> If there’s one combination that is the hallmark of Bihari cuisine, it is the Litti Chokha. This is
+                basically a very traditional and rustic dish of spiced sattu (roasted black chickpea flour) stuffed
+                whole wheat dough balls called Litti. This is classically paired with a simple veggie mash essentially
+                with onion, garlic, green chilies and mustard oil, called the chokha. It is a delicacy in the food
+                culture of both Bihar as well as Jharkhand. Here in this post, I have shared the recipe of the Litti in
+                particular and also the three chokha variants. You can even make a chokha combining all the 3 veggies or
+                combine just the baingan and tamatar to make one chokha. I have shared the recipes of Baingan Ka Chokha
+                (made with eggplants), Tomato Chokha (made with tomatoes) in this post.
+                For the chokha made with potatoes, check the recipe here of Aloo Chokha. But I have listed the method to
+                make Aloo Chokha in the recipe card below. You can pair any of the chokha variants with the litti.
+                The Litti accompanied with the chokha is not just a flavorful pairing, but is a wholesome one too. It is
+                one of the most popular street foods as well in Bihar and eastern Uttar Pradesh in North India.</p>
+            <br>
+
+            <div>
+                <!-- Image -->
+                <img src="images/123.jpg" alt="img ">
+                <img src="images/bhel.jpg" alt="Beautiful landscape">
+                <img src="images/milkshake.jpg" />
+                <img src="images/cake.jpg" />
+                <img src="images/Butter-Chicken.jpg" />
+                <img src="images/Litti Chokha.jpg" />
+            </div>
+            <br>
+            <div>
+                <aside>
+                    <h3> Special item - Litti chokha</h3><br>
+                    <p style="font-size: 13px;">
+                        I had seen quite a few ways of preparing both the Litti and chokha on
+                        various YouTube channels. But finally, I made them in my own way and this post shares
+                        exactly
+                        that.
+                        For the stuffing of the Litti, usually Red Chilli Pickle or Mango Pickle is added.
+
+                        As I wanted to do something different, I added some similar spices and not the pickles
+                        itself.
+                        You
+                        can definitely use the North Indian style mango or red chili pickle masalas, if you have it
+                        at
+                        home.
+
+                        The method of preparing the Litti is similar to the Rajasthani baati (from the dal-baati
+                        pair).
+                        However, both are miles apart and have distinct flavors in them.
+                    </p>
+                </aside>
+                <aside class="asside">
+                    <img src="images/litti.jpg" alt="">
+                </aside>
+            </div>
+
+        </article>
+
+    </section>
+    <footer>
+        <div class="footer_container container">
+            <div class="footer_logo">
+                <img src="images/logo.png" alt="logo" />
+            </div>
+            <div class="link_lists">
+                <h3>Main Links</h3>
+                <ul>
+                    <li>Order Tracking</li>
+                    <li>New Order</li>
+                    <li>Contact Us</li>
+                    <li>News & Blogs</li>
+                </ul>
+            </div>
+            <div class="link_lists">
+                <h3>Support</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditons</li>
+                </ul>
+            </div>
+            <div class="news_letter">
+                <h3>Support</h3>
+                <input type="email" placeholder="Enter your Email..." />
+                <h3>Follow Us</h3>
+                <div class="icon_container">
+                    <div class="icon">
+                        <a href="https://facebook.com" target="_main">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://twitter.com/" target="_main">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/" target="_main">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://whatsapp.com" target="_main">
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://youtube.com" target="_main">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

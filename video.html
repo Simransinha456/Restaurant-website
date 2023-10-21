@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fontawesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <style>
+    h1 {
+      text-align: center;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+    }
+
+    nav {
+      padding: 0;
+      width: 100%;
+      height: 7rem;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #363535;
+      color: #fff;
+    }
+
+    .logo_container img {
+      margin-right: 30rem;
+    }
+
+    /* Center the videos */
+    video {
+      /* display: block; */
+      margin: 0 auto;
+    }
+
+    audio {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .audio-container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .audio-item {
+      flex: 1;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .all-links li {
+        margin-right: 10px;
+      }
+    }
+
+    @media (max-width: 550px) {
+      .all-links li {
+        margin-right: 5px;
+      }
+
+      video {
+        width: 100%;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav>
+    <div class="navigation container">
+      <div class="logo_container">
+        <img src="images/logo.png" alt="logo" />
+
+        <ul class="all-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="article.html">Article</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+      </div>
+
+      <div class="bar_icon">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <h1> My Top video playlist</h1>
+
+  <div>
+    <video height="300" width="420" controls>
+      <source src="images/Myvideo.mp4" type="video/mp4">
+    </video>
+
+    <video height="305" width="420" controls>
+      <source
+        src="images/_ Mai bhola parvat ka __ Bholenath __ kaka __Devo ke dev mahadev__Shiv-Sati Love is purest one❤_.mp4"
+        type="video/mp4">
+    </video>
+
+    <video height="300" width="420" controls>
+      <source src="images/Ram siya ram.mp4" type="video/mp4">
+    </video>
+  </div>
+  <br>
+
+  <h1> My Top audio playlist</h1>
+  <br>
+  <div class="audio-container">
+    <div class="audio-item">
+      <span>
+        <h3 class="audioo">Audio 1</h3>
+        <audio controls>
+          <source src="images/music.mp3" type="audio/mpeg">
+        </audio>
+      </span>
+    </div>
+    <div class="audio-item">
+      <h3 class="audioo">Audio 2</h3>
+      <audio controls>
+        <source src="images/music1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="audio-item">
+      <h3 class="audioo">Audio 3</h3>
+      <audio controls>
+        <source src="images/music.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+</body>
+</html>

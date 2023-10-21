@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/7a4b62b0a4.js" crossorigin="anonymous"></script>
+
+    <style>
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        main img {
+            width: 350px;
+            height: 260px;
+            border: 2px solid rgb(63, 62, 62);
+            border-radius: 13px;
+            box-shadow: 4px 7px 7px 0px rgb(122, 121, 121);
+            cursor: pointer;
+            margin: 10px;
+            transition: 400ms;
+        }
+
+        main img hover {
+            filter: grayscale(1);
+            transform: scale(1.03);
+
+        }
+        nav {
+            padding: 0;
+            width: 100%;
+            height: 7rem;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #363535;
+            color: #fff;
+        }
+        .logo_container img {
+            margin-right: 30rem;
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div class="navigation container">
+            <div class="logo_container">
+                <img src="images/logo.png" alt="logo" />
+
+                <ul class="all-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="article.html">Article</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+            </div>
+            <div class="bar_icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Image -->
+        <img src="images/123.jpg" alt="img ">
+        <img src="images/bhel.jpg" alt="Beautiful landscape">
+        <img src="images/milkshake.jpg" />
+        <img src="images/cake.jpg" />
+        <img src="images/Butter-Chicken.jpg" />
+        <img src="images/Litti Chokha.jpg" />
+    </main>
+
+</body>
+</html>
